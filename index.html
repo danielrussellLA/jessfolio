@@ -1,15 +1,63 @@
 <html>
 <head>
-    <style>
-        canvas {
-            display: block;
-            margin: auto;
-            height: 800px !important;
-            width: 800px !important;
-        }
-    </style>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="./style/index.css" rel="stylesheet" />
+    <link href="./style/header.css" rel="stylesheet" />
+    <link href="./style/about.css" rel="stylesheet" />
+    <link href="./style/portfolio.css" rel="stylesheet" />
+    <link href="./style/footer.css" rel="stylesheet" />
 </head>
 <body>
+
+    <div class="header">
+        <div class="header-overlay"></div>
+        <div class="header-links">
+            <a class="header-link__linkedin" href="https://www.linkedin.com/in/jessicagotsman/" target="_blank"></a>
+            <a class="header-link__mail" href="mailto:jessicagotsman@gmail.com"></a>
+        </div>
+        <div class="header-title-section">
+            <h1 class="header-title">Jessica Gotsman</h1>
+            <p class="header-description">
+                Entertainment Marketing Manager
+            </p>
+        </div>
+        <svg class="down-arrow" height="32" viewBox="0 0 32 32" width="32" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <g class="nc-icon-wrapper" fill="#fafaff">
+                <path d="M16,20c-0.256,0-0.512-0.098-0.707-0.293L8.586,13L10,11.586l6,6l6-6L23.414,13l-6.707,6.707 C16.512,19.902,16.256,20,16,20z" fill="#fafaff">
+                </path>
+            </g>
+        </svg>
+    </div>
+
+    <div class="about" id="about-section">
+        <div class="about-inner-wrap">
+            <div class="profile-photo"></div>
+            <div class="about-text">
+                <h1>Entertainment marketer. Relationship builder.</h1>
+                <p>
+                     Based in Los Angeles, CA, I'm currently a Manager of Marketing & Promotions at <b><a href="http://www.zakhill.com/" target="_blank">zakHill</a></b> working with Warner Bros., Disney, Starz, and more.
+                </p>
+                <p>
+                    Specializing in marketing partnerships in the entertainment industry, I've built campaigns from inception to execution, and worked with brands in all industries.
+                </p>
+                <p>
+                    I am passionate about entertainment and have a proven track record of building brand and client relationships on all my projects.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio-inner-wrap">
+            <h1 class="portfolio-title">Portfolio</h1>
+            <div id="portfolio-items"></div>
+        </div>
+
+    </div>
+    <div class="footer">
+
+    </div>
     <script src="./dist/bundle.js"></script>
 </body>
 </html>

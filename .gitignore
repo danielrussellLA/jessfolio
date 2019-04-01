@@ -1,3 +1,5 @@
 node_modules
 dist
+jessicagotsman_com.crt
+private.key
 .DS_Store
