@@ -15,17 +15,17 @@ export default {
         {
             title: 'Hollywood Records',
             imgPath: `${BASE_IMG_PATH}thumbnail-hollywood-records.jpg`,
-            link: 'https://nation.com'
+            link: 'https://www.hollywoodrecords.com/'
         },
         {
             title: 'Walt Disney Pictures',
             imgPath: `${BASE_IMG_PATH}thumbnail-walt-disney-pictures.png`,
-            link: 'https://gopher.com'
+            link: 'https://www.waltdisneystudios.com/'
         },
         {
             title: 'Starz',
             imgPath: `${BASE_IMG_PATH}thumbnail-starz.jpg`,
-            link: 'https://gopher.com'
+            link: 'https://www.starz.com/'
         },
     ],
 
