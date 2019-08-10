@@ -9,7 +9,7 @@ export default {
         },
         {
             title: 'Warner Bros. Home Entertainment',
-            imgPath: `${BASE_IMG_PATH}thumbnail-wb-home.jpg`,
+            imgPath: `${BASE_IMG_PATH}thumbnail-wb-home-2.jpg`,
             link: 'https://www.warnerbros.com/studio/divisions/home-entertainment'
         },
         {
